@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Blog</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #24292e;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .post {
+      background: white;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .post h2 {
+      margin-top: 0;
+      color: #0366d6;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #ddd;
+      margin-top: 20px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #0366d6;
+      color: white;
+      padding: 3px 8px;
+      border-radius: 5px;
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Meu Blog</h1>
+    <p>Um blog simples hospedado no GitHub Pages 🚀</p>
+  </header>
+
+  <main>
+
+    <div class="post">
+      <span class="tag">Tecnologia</span>
+      <h2>Meu primeiro post</h2>
+      <p>
+        Esse é meu primeiro post no blog. Aqui posso escrever qualquer coisa,
+        como aprendizados de programação, ideias ou projetos.
+      </p>
+    </div>
+
+    <div class="post">
+      <span class="tag">GitHub</span>
+      <h2>Usando GitHub Pages</h2>
+      <p>
+        O GitHub Pages permite hospedar sites estáticos gratuitamente direto do repositório.
+        É perfeito para portfólios e blogs simples.
+      </p>
+    </div>
+
+    <div class="post">
+      <span class="tag">Dica</span>
+      <h2>Como melhorar seu blog</h2>
+      <p>
+        Você pode adicionar imagens, links, animações e até transformar isso em React ou Next.js
+        depois.
+      </p>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Feito com ❤️ usando GitHub Pages</p>
+  </footer>
+
+</body>
+</html>
